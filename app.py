@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model = joblib.load('F:/UNAIR/ALGORITMA PEMROGRAMAN II/Final Project/FIX BGT/prediksi_pinjem.pkl')
+model = joblib.load('/home/KELOMPOKGHALY/FIX BGT/prediksi_pinjem.pkl')
 
 # Initialize Flask app
 app = Flask(__name__)
